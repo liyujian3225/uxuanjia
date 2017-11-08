@@ -1,0 +1,186 @@
+.orderDetail{
+  .orderIntro{
+    width:1200px;
+    margin:0 auto;
+    margin-top: 50px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .head{
+      width: 100%;
+      height: 60px;
+      .left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        .item1{
+          line-height: 60px;
+          font-size: 20px;
+          color: #666666;
+          float: left;
+          margin-left: 20px;
+          font-weight:bold;
+        }
+        .item2{
+          line-height: 60px;
+          font-size: 14px;
+          color: #666666;
+          float: left;
+          margin-left: 100px;
+        }
+      }
+      .right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        .item1{
+          width: 33.3%;
+          line-height: 60px;
+          font-size: 14px;
+          color: #666666;
+          float: left;
+        }
+        .item2{
+          width: 33.3%;
+          font-size: 14px;
+          color: #666666;
+          float: left;
+          line-height: 60px;
+        }
+        .item3{
+          width: 33.3%;
+          font-size: 14px;
+          color: #666666;
+          float: right;
+          line-height: 60px;
+        }
+      }
+    }
+    .list{
+      width: 100%;
+      height: 180px;
+      .left{
+        width: 50%;
+        height: 100%;
+        float: left;
+        .picture{
+          margin-left: 20px;
+          margin-top: 10px;
+          width: 150px;
+          height: 150px;
+          float: left;
+        }
+        .title{
+          width: 400px;
+          float: left;
+          color: #323232;
+          font-size: 20px;
+          font-weight: bold;
+          margin-top: 55px;
+          margin-left: 20px;
+          text-align: left;
+        }
+        .intro{
+          width: 400px;
+          float: left;
+          color: #999999;
+          font-size: 16px;
+          margin-top: 10px;
+          margin-left: 20px;
+          text-align: left;
+        }
+      }
+      .right{
+        width: 50%;
+        height: 100%;
+        float: right;
+        .item1{
+          width: 33.3%;
+          line-height: 150px;
+          font-size: 14px;
+          color: #666666;
+          float: left;
+        }
+        .item2{
+          width: 33.3%;
+          font-size: 14px;
+          color: #666666;
+          float: left;
+          line-height: 150px;
+        }
+        .item3{
+          width: 33.3%;
+          font-size: 14px;
+          color: #FF0000;
+          float: right;
+          line-height: 150px;
+        }
+      }
+    }
+  }
+  .personIntro{
+    width:1200px;
+    margin:0 auto;
+    height:158px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    padding-top: 10px;
+    .left{
+      width: 33.3%;
+      height: 100%;
+      float: left;
+      .text{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #999999;
+        float: left;
+        text-align: left;
+      }
+    }
+    .middle{
+      width: 33.3%;
+      height: 100%;
+      float: left;
+      .text{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #999999;
+        float: left;
+        text-align: left;
+      }
+    }
+    .right{
+      width: 33.3%;
+      height: 100%;
+      float: right;
+      .row{
+        width: 100%;
+        height: 30px;
+        float: left;
+        .item{
+          margin-top: 10px;
+          margin-left: 20px;
+          font-size: 16px;
+          color: #999999;
+          float: left;
+          text-align: left;
+        }
+        .content{
+          margin-top: 10px;
+          margin-left: 10px;
+          font-size: 16px;
+          color: #FF0000;
+          float: left;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

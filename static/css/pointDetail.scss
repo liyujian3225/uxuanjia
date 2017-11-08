@@ -1,0 +1,59 @@
+div.pointDetail{
+  width:1200px;
+  height:auto;
+  margin:0 auto;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:40px;
+  >header{
+    height:120px;
+    overflow:hidden;
+    >div:first-child{
+      float:left;
+      margin-top:30px;
+      height:57px;
+      width:220px;
+      >img{
+        display:block;
+        height:100%;
+      }
+    }
+    >div:last-child{
+      float:right;
+      line-height:120px;
+      font-size:20px;
+    }
+  }
+  >h3:nth-child(2){
+    height:30px;
+    line-height:30px;
+    text-align:left;
+    font-size:25px;
+  }
+  >div:nth-child(3){
+    line-height:40px;
+    font-size:10px;
+    text-align:right;
+    border-bottom:1px solid #ccc;
+    >span{
+      padding:0 10px;
+    }
+  }
+  >div.main{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+    >p{
+      text-align:left;
+      line-height:20px;
+      font-size:15px;
+      margin-bottom:20px;
+    }
+    >div{
+      width:100%;
+      >img{
+        width:100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,258 @@
+.myUcoin{
+  width:1200px;
+  margin:0 auto;
+  //个人资料
+  .head{
+    width:100%;
+    height: 100px;
+    margin-top: 50px;
+    >div:first-child{
+      float: left;
+      width: 100px;
+      height: 100px;
+      >img{
+        display:block;
+        width:100%;
+        height:100%;
+        border-radius:50%;
+      }
+    }
+    >div:last-child{
+      float: left;
+      line-height: 100px;
+      color: #323232;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+  }
+  //U币金额
+  .price{
+    width:426px;
+    margin-top: 40px;
+    float: left;
+    height: 254px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .top{
+      width: 100%;
+      height: 50px;
+      .title1{
+        float: left;
+        line-height: 28px;
+        color: #323232;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      >a{
+        float: right;
+        margin-right: 20px;
+        margin-top: 27px;
+        color: #999999;
+        font-size: 12px;
+        line-height: 17px;
+      }
+    }
+    .bottom{
+      width: 100%;
+      height: 204px;
+      .group{
+        width: 49%;
+        height: 100%;
+        float: left;
+        position:relative;
+        .item{
+          font-size: 16px;
+          color: #999999;
+          text-align: center;
+          width: 100%;
+          height: 22px;
+          margin-top: 45px;
+          float: left;
+        }
+        .number{
+          font-size: 30px;
+          color: #F49F49;
+          font-weight: bold;
+          text-align: center;
+          width: 100%;
+          height: 42px;
+          margin-top: 10px;
+          float: left;
+        }
+        >a{
+          position:absolute;
+          right:55px;
+          top:30px;
+          display:block;
+          width:15px;
+          height:15px;
+          line-height:15px;
+          color:#F49F49;
+          border:1px solid #F49F49;
+          border-radius:50%;
+          transition:all .35s ease;
+          &:hover{
+            background:#F49F49;
+            color:#fff;
+          }
+        }
+      }
+      .line{
+        float: left;
+        width: 1px;
+        height: 109px;
+        background: #E6E6E6;
+        margin-top: 25px;
+      }
+    }
+  }
+  .money{
+    position:fixed;
+    top:0;bottom:0;
+    left:0;right:0;
+    margin:auto;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    >div{
+      position:absolute;
+      top:0;bottom:0;
+      left:0;right:0;
+      margin:auto;
+      background:#fff;
+      border-radius:5px;
+      width:600px;
+      height:300px;
+      box-sizing:border-box;
+      padding:25px 30px 15px;
+      >h3{
+        margin:10px auto;
+        font-weight:bold;
+        font-size:20px;
+      }
+      >div:last-child{
+        position:absolute;
+        right:5px;
+        top:5px;
+        width:20px;height:20px;
+        line-height:20px;
+        cursor:pointer;
+        font-size:25px;
+        transform:rotateZ(45deg);
+        transition:all .35s ease;
+        &:hover{
+          transform:rotateZ(225deg);
+        }
+      }
+    }
+  }
+  //获得U币
+  .getUcoin{
+    width:752px;
+    height:254px;
+    margin-top:40px;
+    float:right;
+    >div{
+      width:100%;
+      height:120px;
+      -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-sizing:border-box;
+      padding:10px;
+      &:first-child{
+        margin-bottom:14px;
+      }
+      >h3{
+        height:21px;
+        color:#000;
+        text-align:left;
+        font-weight:normal;
+        >span{
+          color:#F49F49;
+          font-weight:bold;
+        }
+      }
+      >div{
+        width:100%;
+        height:99px;
+        >div{
+          height:100%;
+          width:33.3333%;
+          float:left;
+          >div:first-child{
+            margin-top:20px;
+            font-size:20px;
+            line-height:20px;
+            color:#ccc;
+          }
+          >div:last-child{
+            margin-top:10px;
+            font-size:18px;
+            color:#F49F49;
+            line-height:25px;
+          }
+        }
+      }
+    }
+  }
+  //U币明细
+  .detail{
+    width:100%;
+    margin-top: 20px;
+    float:left;
+    margin-bottom: 50px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .top{
+      width: 100%;
+      height: 51px;
+      .title{
+        line-height: 51px;
+        padding:0 10px;
+        font-size: 15px;
+        color: #666666;
+        text-align: center;
+        float: left;
+        cursor:pointer;
+      }
+      .active{
+        color:#F49F49;
+      }
+    }
+    >table:nth-child(2){
+      height:auto;
+      width: 100%;
+      float: left;
+      >.tableHeader{
+        height:40px;
+        line-height:40px;
+      }
+      >.tableBody{
+        background:#fff;
+        line-height:50px;
+        height:50px;
+        border-bottom:1px solid #ccc;
+        .moreInf{
+          height:40px;
+          width:140px;
+          text-align:center;
+          line-height:40px;
+          margin:0 auto;
+          background:#fff;
+          cursor:pointer;
+          border-radius:8px;
+          transition:background .35s ease;
+          &:hover{
+            color:#F49F49;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+
+
+.el-dialog,.el-dialog--small{
+    width: 500px;
+    height: 380px;
+    border-radius: 10px;
+    .el-dialog__body{
+        height: 400px;
+    }
+}
+.selectPay{
+
+  height:380px;
+  button.submit{
+    margin-top: 0px;    
+  }
+  .title{
+    width: 50%;
+    margin-left: 25%;
+    height: 60px;
+    margin-top: -50px;
+    .first{
+      width: 100%;
+      height: 32px;
+      .line1{
+        width: 15%;
+        height: 4px;
+        background: #323232;
+        margin-top: 15px;
+        float: left;
+      }
+      .text{
+        width: 70%;
+        font-size: 25px;
+        font-weight:bold;
+        color: #323232;
+        float: inherit;
+      }
+      .line2{
+        width: 15%;
+        height: 4px;
+        background: #323232;
+        margin-top: 15px;
+        float: right;
+      }
+    }
+    .second{
+      width: 100%;
+      height: 40px;
+      margin-left: 3%;
+      margin-top: 5px;
+      font-size: 12px;
+      color: #999999;
+      text-align: center;
+    }
+  }
+  .selectView{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: 50px;
+    .left{
+      width: 50%;
+      height: 100%;
+      float: left;
+      .image{
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+        float: left;
+      }
+      .text{
+        line-height: 30px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: #666666;
+        float: left;
+      }
+    }
+    .right{
+      width: 50%;
+      height: 100%;
+      float: right;
+      .image{
+        margin-top: 5px;
+        width: 20px;
+        height: 20px;
+        float: right;
+      }
+      .text{
+        line-height: 30px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: #666666;
+        float: right;
+      }
+    }
+  }
+  .onlinePay{
+    margin-left: 25%;
+    width: 50%;
+    height: 160px;
+    .passInfo{
+        color: red;
+        line-height: 35px;
+    }
+    .name{
+      margin-top: 30px;
+    }
+    .number{
+      margin-top: 10px;
+    }
+  }
+  .posPay{
+    margin-left: 25%;
+    width: 50%;
+    height: 160px;
+    #qrcode{
+      margin-top: 8px;
+      margin-left: 35px;
+    }
+    .noPay{
+        font-size: 30px;
+        font-weight: bold;
+        color: #323232;
+        margin-top: 190px;
+    }
+  }
+  .submit{
+    margin-top: 30px;
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+    outline:none;
+    color: #323232;
+    border:1px solid #323232;
+  }
+
+}

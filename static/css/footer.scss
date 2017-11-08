@@ -1,0 +1,133 @@
+// @Author: 钟晶
+// @Last Modified by:   钟晶
+footer{
+  width:100%;
+  height:356px;
+  background:rgba(74,74,74,1);
+  overflow:hidden;
+  .foot-top:first-child{
+    width:100%;
+    height:100px;
+    background:#fff;
+    ul{
+      width:1200px;
+      height:100%;
+      margin:0 auto;
+      li{
+        width:300px;
+        height:100%;
+        float:left;
+        img{
+          display:block;
+          width:100%;
+          height:100%;
+          cursor:pointer;
+        }
+      }
+    }
+  }
+  .foot-bottom{
+    width:100%;
+    height:256px;
+    ul{
+      .foot-bottom-left{
+        width:34%;
+        float: left;
+        margin-top: 35px;
+        .bottom-left{
+          float: left;
+          text-align:center;
+          width:100%;
+          margin-right:-1px;
+          .btm-left-right{
+            text-align:left;
+            margin-left:40%;
+            img{
+              margin-top:15px;
+            }
+            p{
+              color:#9B9B9B;
+              font-size:14px;
+              margin-top:10px;
+            }
+          }
+          
+        }
+        .foot-line{ 
+          float: right;
+          width:1px;
+          height:155px;
+          background-color: #5F5E5F ;
+          margin-top:15px;
+        }
+      }
+      .foot-bottom-center{
+        width:32%;
+        float: left;
+        .bottom-center{
+          float: left;
+          text-align:center;
+          width:100%;
+          margin-right:-1px;
+          h6{
+            font-size:18px;  
+            color:#fff; 
+            font-weight:normal;  
+            margin-top:12px;    
+          }
+          p{
+            font-size:14px;
+            color:#9B9B9B;
+            margin-top:10px;
+          }
+          .btm-cen-con{
+            font-size:14px;
+            color:#9B9B9B;
+            margin-top:10px;
+            
+          }
+          .btm-cen-conline{
+            border-bottom:1px solid #5F5E5F;
+            width:370px;
+            margin:10px auto 0;
+          }
+        }
+        .foot-line-two{ 
+          float: right;
+          width:1px;
+          height:155px;
+          background-color: #5F5E5F ;
+          margin-top:15px;
+        }
+      }
+      .foot-bottom-right{
+        width:34%;
+        float: left;
+        text-align:left;
+        .btm-right{
+          margin-left:50px;
+          margin-top:40px;
+        }
+        h6{
+            margin-left: 106px;
+            font-size:18px;  
+            color:#fff; 
+            font-weight:normal;  
+            margin-top:12px;
+        }
+        .btm-img{
+          margin-top:10px;
+        }
+        .btm-img-right{
+          margin-right:15px;
+        }
+        p{
+          font-size:14px;
+            color:#9B9B9B;
+            margin-top:10px;
+        }
+      }
+    }
+    
+  }
+}

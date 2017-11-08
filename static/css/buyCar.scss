@@ -1,0 +1,910 @@
+//购物车css
+.buyCar{
+  //我的购物车
+  .first{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    .image{
+      margin-top: 60px;
+      float: left;
+      width: 41px;
+      height: 24px;
+    }
+    .title{
+      margin-left: 10px;
+      margin-top: 50px;
+      float: left;
+      font-size: 30px;
+      font-weight:bold;
+      color: #323232;
+    }
+  }
+  //步骤条
+  .second{
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    .left{
+      margin-left: 5%;
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .middle{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .right{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+  }
+  //全部商品
+  .third{
+    width:1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .left{
+      width:55%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+        float: left;
+        margin-left: 20px;
+      }
+      .intro{
+        font-size: 14px;
+        font-weight:bold;
+        color: #999999;
+        line-height: 60px;
+        float: left;
+        margin-left: 10px;
+      }
+    }
+    .middle{
+      width:15%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+      }
+    }
+    .right{
+      width:30%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+      }
+    }
+  }
+  //商品列表
+  .fourth{
+    width:1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .list{
+      width:100%;
+      height: 190px;
+      .left{
+        width:55%;
+        height: 100%;
+        float: left;
+        position: relative;
+        .el-checkbox{
+            position: absolute;
+            left: 0px;
+            top:50%;
+            margin-top: -15px;
+            margin-left: 20px;
+            .el-checkbox__input{
+                .el-checkbox__inner{
+                    border-radius: 50%;
+                    width: 24px;
+                    height: 24px;
+
+                }
+                .el-checkbox__inner::after{
+                    height: 10px;
+                    left: 8px;
+                    top: 3px;
+                }
+            }
+        }
+        .select{
+          float: left;
+          margin-left: 20px;
+          margin-top: 80px;
+          height: 30px;
+          width: 30px;
+        }
+        .image{
+          margin-left: 40px;
+          margin-top: 20px;
+          float: left;
+          width: 150px;
+          height: 150px;
+        }
+        .title{
+          font-size: 20px;
+          font-weight:bold;
+          width: 190px;
+          color: #323232;
+          float: left;
+          margin-left: 20px;
+          margin-top: 80px;
+
+        }
+        .intro{
+          font-size: 16px;
+          color: #999999;
+          float: left;
+          margin-left: 10px;
+          width: 190px;
+          margin-top: 80px;
+        }
+      }
+      .middle{
+        width:15%;
+        height: 100%;
+        float: left;
+        .title{
+          font-size: 20px;
+          color: #FF0000;
+          line-height: 190px;
+        }
+      }
+      .right{
+        width:30%;
+        height: 100%;
+        float: right;
+        .delete{
+          float: right;
+          margin-top: 77px;
+          margin-right: 40px;
+        }
+        .num{
+          width: 120px;
+          margin-top: 77px;
+          float: right;
+          margin-right: 50px;
+        }
+      }
+    }
+  }
+  //提交订单
+  .fifth{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .submit{
+      width: 20%;
+      height: 100%;
+      color: white;
+      background: #F2902D;
+      float: right;
+      font-size: 20px;
+      border:1px solid #fff;
+      outline:none;
+    }
+    .bottomLeft{
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative;
+      .el-checkbox{
+        .el-checkbox__label{
+            font-size: 20px;
+            color: #999;
+            vertical-align: middle;
+        }
+          position: absolute;
+          left: 0px;
+          top:50%;
+          margin-top: -15px;
+          margin-left: 20px;
+          .el-checkbox__input{
+
+              .el-checkbox__inner{
+
+                  border-radius: 50%;
+                  width: 24px;
+                  height: 24px;
+
+              }
+              .el-checkbox__inner::after{
+                  height: 10px;
+                  left: 8px;
+                  top: 3px;
+              }
+          }
+      }
+      .title{
+        float: left;
+        margin-left: 40px;
+        line-height: 100px;
+        color: #999999;
+        font-size: 20px;
+      }
+    }
+    .bottomMiddle{
+      height: 100%;
+      width: 60%;
+      float: left;
+      .one{
+        width: 40%;
+        height: 100%;
+        float: left;
+        text-align: left;
+        margin-top: 36px;
+        font-size: 20px;
+        .num{
+          color: #999999;
+        }
+        .price{
+          color: #FF0000;
+        }
+      }
+      .two{
+        width: 30%;
+        float: left;
+        text-align: left;
+        font-size: 20px;
+        color: #999999;
+        margin-top: 36px;
+      }
+    }
+  }
+}
+
+//填写订单css
+.fillinOrder{
+
+    .el-dialog,.el-dialog--small{
+        width: 500px;
+        height: 380px;
+        border-radius: 10px;
+        .el-dialog__body{
+            height: 400px;
+        }
+    } 
+  //确认订单
+  .first{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    .image{
+      margin-top: 60px;
+      float: left;
+      width: 41px;
+      height: 24px;
+    }
+    .title{
+      margin-left: 10px;
+      margin-top: 50px;
+      float: left;
+      font-size: 30px;
+      font-weight:bold;
+      color: #323232;
+    }
+  }
+  //步骤条
+  .second{
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    .left{
+      margin-left: 5%;
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .middle{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .right{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+  }
+  //收货信息
+  .address{
+    width:1200px;
+    margin: 0 auto;
+    display: inline-block;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .el-radio-group{
+        display: block;
+    }
+    .item{
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+        float: left;
+        margin-left: 20px;
+      }
+      .intro{
+        font-size: 14px;
+        font-weight:bold;
+        color: #999999;
+        line-height: 60px;
+        float: left;
+        margin-left: 10px;
+      }
+      .addAddress{
+        cursor: pointer;
+        width: 20%;
+        height: 60px;
+        color: white;
+        background: #F2902D;
+        float: right;
+        font-size: 20px;
+        border:1px solid #fff;
+        outline:none;
+      }
+    }
+    //地址列表
+
+    .addressList{
+      cursor: pointer;
+      height: 60px;
+      .one{
+        width: 50%;
+        height: 100%;
+        float: left;
+        .select{
+          float: left;
+          margin-left: 20px;
+          margin-top: 20px;
+          height: 20px;
+          width: 20px;
+        }
+        .name{
+          float: left;
+          font-size: 14px;
+          color: #666666;
+          line-height: 60px;
+          margin-left: 20px;
+        }
+        .detail{
+          float: left;
+          font-size: 14px;
+          color: #666666;
+          line-height: 60px;
+          margin-left: 40px;
+        }
+      }
+      .two{
+        width: 18%;
+        height: 100%;
+        float: left;
+        text-align: left;
+        .phone{
+          font-size: 14px;
+          color: #666666;
+          line-height: 60px;
+        }
+      }
+      .three{
+        width:32%;
+        height: 100%;
+        float: right;
+        .default{
+          margin-top: 15px;
+          width: 80px;
+          height: 26px;
+          color: #000;
+          background: white;
+          float: left;
+          font-size: 16px;
+          border:1px solid #000;
+          outline:none;
+        }
+        .rightButton{
+          margin-top: 15px;
+          margin-right: 40px;
+          float: right;
+          font-size: 20px;
+          span{
+              margin:0 10px 0;
+          }
+        }
+        .button{
+          font-size: 20px;
+          border: 0;
+          background: white;
+          outline:none;
+        }
+      }
+    }
+  }
+  //全部商品
+  .third{
+    width:1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .left{
+      width:55%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+        float: left;
+        margin-left: 20px;
+      }
+      .intro{
+        font-size: 14px;
+        font-weight:bold;
+        color: #999999;
+        line-height: 60px;
+        float: left;
+        margin-left: 10px;
+      }
+    }
+    .middle{
+      width:15%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+      }
+    }
+    .right{
+      width:30%;
+      height: 100%;
+      .title{
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+        line-height: 60px;
+      }
+    }
+  }
+  //商品列表
+  .fourth{
+    width:1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .list{
+      width:100%;
+      height: 190px;
+      .left{
+        width:55%;
+        height: 100%;
+        float: left;
+        .image{
+          margin-left: 20px;
+          margin-top: 20px;
+          float: left;
+          width: 150px;
+          height: 150px;
+        }
+        .title{
+          font-size: 20px;
+          font-weight:bold;
+          width: 190px;
+          color: #323232;
+          float: left;
+          margin-left: 20px;
+          margin-top: 80px;
+
+        }
+        .intro{
+          font-size: 16px;
+          color: #999999;
+          float: left;
+          margin-left: 10px;
+          width: 190px;
+          margin-top: 80px;
+        }
+      }
+      .middle{
+        width:15%;
+        height: 100%;
+        float: left;
+        .title{
+          font-size: 20px;
+          color: #FF0000;
+          line-height: 190px;
+        }
+      }
+      .right{
+        width:30%;
+        height: 100%;
+        float: right;
+        .num{
+          width: 100%;
+          line-height: 190px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  //提交订单
+  .fifth{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .left{
+      height: 100%;
+      width: 60%;
+      float: left;
+      .one{
+        padding-left: 20px;
+        width: 30%;
+        float: left;
+        text-align: left;
+        margin-top: 36px;
+        font-size: 20px;
+        .num{
+          color: #999999;
+        }
+        .price{
+          color: #FF0000;
+        }
+      }
+      .two{
+        width: 30%;
+        float: left;
+        text-align: center;
+        font-size: 20px;
+        color: #999999;
+        margin-top: 36px;
+      }
+    }
+    .right{
+      height: 100%;
+      width: 40%;
+      float: right;
+      .pay{
+        width: 135px;
+        height: 60px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 100px;
+        font-size: 20px;
+        color: #323232;
+        border:1px solid #323232;
+        background: white;
+        outline:none;
+      }
+    }
+  }
+}
+
+//完成购物
+.completeShopping{
+  //购物完成
+  .first{
+    width:1200px;
+    height: 100px;
+    margin: 0 auto;
+    .image{
+      margin-top: 60px;
+      float: left;
+      width: 41px;
+      height: 24px;
+    }
+    .title{
+      margin-left: 10px;
+      margin-top: 50px;
+      float: left;
+      font-size: 30px;
+      font-weight:bold;
+      color: #323232;
+    }
+  }
+  //步骤条
+  .second{
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    .left{
+      margin-left: 5%;
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .middle{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+    .right{
+      width:30%;
+      height: 100%;
+      .line{
+        width: 100%;
+        height: 4px;
+        background: rgba(242, 144, 45, .1);
+        margin-top: 34px;
+      }
+      .image{
+        margin-top: -34px;
+      }
+      .title{
+        width: 100%;
+        height: 20px;
+        margin-top: 30px;
+        float: left;
+        font-size: 20px;
+        font-weight:bold;
+        color: #323232;
+      }
+    }
+  }
+  .third{
+    width:1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 250px;
+    .image{
+      width: 146px;
+      height: 146px;
+      margin-left: 527px;
+      float: left;
+    }
+    .title{
+      margin-top: 40px;
+      width: 100%;
+      font-size: 30px;
+      color: #323232;
+      font-weight: bold;
+      float: left;
+    }
+  }
+  .fourth{
+    width:1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 154px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .view{
+      width: 25%;
+      height: 100%;
+      float: left;
+      .top{
+        width: 99.6%;
+        float: left;
+        line-height: 68px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #323232;
+        background: #F1F1F1;
+      }
+      .bottom{
+        width: 99.6%;
+        float: left;
+        line-height: 86px;
+        font-size: 20px;
+        color: #323232;
+      }
+      .line{
+        width: 1px;
+        height: 100%;
+        float: right;
+        background: #D8D8D8;
+      }
+    }
+  }
+  .fifth{
+    width:1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    height: 70px;
+    .left{
+      width: 20%;
+      height: 100%;
+      font-size: 20px;
+      float: left;
+      margin-left: 25%;
+      background: #F2902D;
+      color: white;
+      border:0;
+      outline: none;
+    }
+    .right{
+      width: 20%;
+      height: 100%;
+      font-size: 20px;
+      float: left;
+      margin-left: 10%;
+      border:1px solid #323232;
+      background: white;
+      color: #323232;
+      outline: none;
+    }
+  }
+}

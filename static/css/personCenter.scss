@@ -1,0 +1,293 @@
+div.personpage{
+    .el-dialog,.el-dialog--small{
+        width: 500px;
+        height: 380px;
+        border-radius: 10px;
+        .el-dialog__body{
+            height: 400px;
+        }
+    } 
+  >section:nth-child(2){
+    width:1200px;
+    margin:0 auto;
+    height:100px;
+    margin-bottom:50px;
+    >div.img{
+      width:100px;
+      height:100px;
+      float:left;
+
+      >img{
+        display:block;
+        width:100%;
+        border-radius: 50%;
+      }
+    }
+    >div.name{
+      height:100px;
+      width:200px;
+      line-height:100px;
+      text-align:center;
+      font-weight:normal;
+      font-size:25px;
+      float:left;
+      margin-left:30px;
+    }
+  }
+  >section:nth-child(3){
+    width:1200px;
+    margin:0 auto;
+    height:357px;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;
+    >div:first-child{
+      width:590px;
+      height:100%;
+      -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-sizing:border-box;
+      padding:10px;
+
+      >h2{
+        color:rgba(153,153,153,1);
+        text-align:left;
+        font-weight:normal;
+        font-size:30px;
+      }
+      >div.add{
+        cursor: pointer;
+        width:287px;
+        height:46px;
+        margin:0 auto;
+        margin-top:80px;
+        line-height:46px;
+        font-size:22px;
+        text-align:center;
+        border-radius:5px;
+        color:rgba(153,153,153,1);
+        border:1px solid rgba(151,151,151,1);
+        transition:all .35s ease;
+        &:hover{
+          background:rgba(247,183,119,1);
+          color:#fff;
+          border:0;
+        }
+      }
+    }
+    >div:last-child{
+      width:590px;
+      height:100%;
+      -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-shadow:0 0 20px rgba(217, 217, 217, .5);
+      box-sizing:border-box;
+      padding:10px;
+      >h2{
+        color:rgba(153,153,153,1);
+        text-align:left;
+        font-weight:normal;
+        font-size:30px;
+      }
+      >div:nth-child(2){
+        width:97px;
+        height:84px;
+        margin:0 auto;
+        margin-top:80px;
+        color:rgba(247,183,119,1);
+        font-size:60px;
+        line-height:84px;
+        margin-bottom:96px;
+      }
+      >div:nth-child(3){
+        height:20px;
+        line-height:20px;
+        color:rgba(153,153,153,1);
+      }
+    }
+
+    .addressList{
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+      li{
+        margin-bottom:20px;
+        text-align: left;
+        span.default{
+
+          border:1px solid #323232;
+          padding: 3px;
+        }
+        span{
+          margin-left: 15px;
+
+        }
+        i{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  >section:nth-child(4){
+    width:1200px;
+    height:68px;
+    margin:0 auto;
+    margin-bottom:20px;
+    background:#ccc;
+  }
+  //订单筛选
+  .selectOrder{
+    width:1200px;
+    margin:0 auto;
+    height: 68px;
+    background: white;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    >button{
+      width: 15%;
+      float: left;
+      color: #666666;
+      font-size: 20px;
+      text-align: left;
+      margin-left: 20px;
+      line-height: 68px;
+      outline:none;
+      font-weight: normal;
+      border: 0;
+      background: white;
+      cursor:pointer;
+    }
+    .active{
+      color: #F39638;
+    }
+  }
+  //订单列表
+  .list{
+    width:1200px;
+    height: auto;
+    overflow:hidden;
+    margin:20px auto;
+    box-sizing:border-box;
+    padding:20px;
+    -webkit-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    -moz-box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    box-shadow:0 0 20px rgba(217, 217, 217, .5);
+    .top{
+      width:100%;
+      height:130px;
+      .intro{
+        width: 80%;
+        height: 130px;
+        float:left;
+        >div.price{
+          font-size: 20px;
+          font-weight:normal;
+          text-align: left;
+          color:red;
+          line-height:50px;
+        }
+        >div.detail{
+          font-size: 14px;
+          text-align: left;
+          color: #666666;
+          line-height:25px;
+        }
+      }
+      .right{
+        float: left;
+        width: 20%;
+        height:100%;
+        >div:first-child{
+          line-height:30px;
+          font-size:20px;
+        }
+        >div.active{
+          width:120px;
+          height:40px;
+          margin:0 auto;
+          margin-top:5px;
+          border-radius:20px;
+          background:#5bb688;
+          color:#fff;
+          cursor:pointer;
+          padding:0 15px;
+          line-height:40px;
+          font-size:15px;
+          transition:background .35s ease;
+          &:hover{
+            background:rgb(79, 153, 114);
+          }
+        }
+        >div.static{
+          width:120px;
+          height:40px;
+          margin:0 auto;
+          margin-top:40px;
+          border-radius:20px;
+          background:#d2d2d2;
+          color:#fff;
+          padding:0 15px;
+          line-height:40px;
+          font-size:15px;
+        }
+      }
+    }
+    .bottom{
+      width: 100%;
+      height: auto;
+      overflow:hidden;
+      border-top:6px solid #f6f6f6;;
+      box-sizing:border-box;
+      padding:20px 0;
+      cursor:pointer;
+      >div:first-child{
+        width: 150px;
+        height: 150px;
+        float: left;
+        >img{
+          display:block;
+          width:100%;
+          height:100%;
+        }
+      }
+      >div:nth-child(2){
+        width: 450px;
+        height: 150px;
+        float: left;
+        box-sizing:border-box;
+        padding:10px;
+        >div:first-child{
+          height:50px;
+          line-height:50px;
+          >span:first-child{
+            padding:0 10px;
+            font-size: 16px;
+            font-weight: normal;
+            color: #323232;
+            float:left;
+          }
+          >span:last-child{
+            padding:0 10px;
+            font-size: 15px;
+            color: #000;
+            text-align: left;
+            float:left;
+          }
+        }
+        >div:last-child{
+          height:30px;
+          >span{
+            padding:0 10px;
+            font-size: 14px;
+            color: red;
+            text-align: left;
+            float:left;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+div.personnav{
+  width:1200px;
+  height:57px;
+  margin:0 auto;
+  margin-top:40px;
+  margin-bottom:50px;
+  >.left{
+    width:220px;
+    height:57px;
+    float:left;
+    >img{
+      display:block;
+      width:100%;
+    }
+  }
+  >.right{
+    height:22px;
+    margin-top:35px;
+    margin-left:100px;
+    float:left;
+    
+    font-size:16px;
+    >a{
+      line-height:22px;
+      margin:0 15px;
+      color: #232323;
+    }
+    >a:hover{
+        color:orange;
+      }
+
+    .navCurrent{
+        color: orange;
+    }
+  }
+}
+
+div.parent{
+  width:1200px;
+  margin:0 auto;
+  height:auto;
+  overflow:hidden;
+  margin-bottom:40px;
+}

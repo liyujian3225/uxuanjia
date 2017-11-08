@@ -1,0 +1,21 @@
+/* 
+* @Author: 钟晶
+* @Date:   2017-09-12 10:49:05
+ * @Last Modified by: sb
+ * @Last Modified time: 2017-10-12 15:32:43
+*/
+/* html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img{display: block;}
+ul, ol { list-style:none; } */
+/* input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";} */
+/* select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+table { border-collapse:collapse; } */
+/* h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;} */
+/* body { color:#333; font:14px "SimSun","宋体","Arial Narrow"; background:#fff; } */
+/* input:focus,textarea:focus,select:focus {
+        outline:none;
+    } */
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}

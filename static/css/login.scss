@@ -1,0 +1,131 @@
+@mixin square($width,$height){
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  width:$width;
+  height:$height;
+  margin:auto;
+}
+div.loginBack{
+  @include square(100%,100%);
+  background-color: rgba(0,0,0,0.3)!important;
+  background-color: #000;
+  filter:Alpha(opacity=50);
+  z-index:30;
+  .login{
+    @include square(800px,500px);
+    z-index:31;
+    background:rgb(255,255,255);
+    border-radius:10px;
+    .left{
+      width: 365px;
+      height: 500px;
+      float: left;
+      .left-image{
+        display:block;
+        width: 100%;
+        height: 100%;
+        border-radius:10px 0 0 10px;
+      }
+    }
+    .right{
+      width: 435px;
+      height: 500px;
+      float: left;
+      box-sizing:border-box;
+      padding:80px 50px 20px 50px;
+      >div.first-child{
+        width:220px;
+        height:57px;
+        margin:0 auto;
+        .logo{
+          width: 100%;
+          height: 100%;
+          display:block;
+        }
+      }
+      .phoneNumber{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 12px;
+      }
+      .pic{
+        margin-top:20px;
+        width:100%;
+        height:36px !important;
+        display:flex;
+        justify-content:space-between;
+        >div:first-child{
+          flex-basis:50%;
+          margin:0 !important;
+        }
+        >div:last-child{
+          margin:0;
+          height:34px;
+          border:1px solid #ccc;
+          border-radius:3px;
+          >img{
+            display:block;
+            height:100%;
+            width:106px;
+            border-radius:3px;
+          }
+        }
+      }
+      .pictureCode{
+        width: 60%;
+        margin:0;
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .pictureCodeImage{
+        width: 32%;
+        height: 36px;
+        margin:0;
+        margin-top: 10px;
+        .image{
+          width: 100%;
+        }
+      }
+      .phoneCode{
+        width: 43%;
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .phoneCodeButton{
+        width: 32%;
+        margin-left: 3%;
+        text-align:center;
+        font-size: small;
+        color: #999999;
+        padding:0;
+        padding-top:10px;
+        padding-bottom:10px;
+      }
+      .submit{
+        width: 100%;
+        margin-top: 10px;
+        color: #323232;
+      }
+    }
+    .del{
+      position:absolute;
+      top:5px;
+      right:5px;
+      width:25px;
+      height:25px;
+      line-height:25px;
+      color:#000;
+      font-size:25px;
+      cursor:pointer;
+      transform:rotateZ(45deg);
+      transition:all .35s ease;
+    }
+    .del:hover{
+      transform:rotateZ(225deg)
+    }
+  }
+}
+
