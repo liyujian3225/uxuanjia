@@ -393,8 +393,5 @@
   ```
 
 
-  #### 更详细的介绍
-  - 博客地址：
-  - http://www.cnblogs.com/beidan/p/6129891.html
-  - http://www.cnblogs.com/beidan/p/vue.html
+ 
 
